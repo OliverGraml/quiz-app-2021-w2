@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: lightcoral;
+  border: 3px solid lightgray;
+}
+
+.question {
+  text-align: center;
+  border: 3px solid lightgray;
+  background-color: lightskyblue;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+.question-tags {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.question-bookmark {
+  width: 4rem;
+  position: relative;
+  left: 20%;
+  bottom: 3rem;
+  margin-bottom: -3rem;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  border: 3px solid lightgray;
+  background-color: lightcoral;
+}
+
+.nav-img {
+  width: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.tag-element {
+  border: 3px solid black;
+  border-radius: 5%;
+  padding: 0.3rem;
+}
+
+.formular {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.profile-name {
+}
+
+.profile-box {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-text {
+  margin: 3rem;
+}
+
+.profile-tag-list {
+}
+
+.profile-tag-list-item {
+}
+
+.profil-button {
+  align-items: center;
+}
