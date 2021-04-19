@@ -1,0 +1,24 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+        "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverGraml/quiz-app-2021-w2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverGraml/quiz-app-2021-w2/issues"
+  },
+  "homepage": "https://github.com/OliverGraml/quiz-app-2021-w2#readme",
+  "devDependencies": {
+    "snowpack": "^3.3.3"
+  }
+}
