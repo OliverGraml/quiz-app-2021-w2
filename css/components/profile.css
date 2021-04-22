@@ -1,0 +1,21 @@
+.profile__picture {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.profile__box {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile__text {
+  margin: 3rem;
+}
+
+.profil__button {
+  display: flex;
+  align-items: center;
+  color: white;
+}

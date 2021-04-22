@@ -1,0 +1,35 @@
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --grey: rgb(211, 211, 211);
+  --blue: rgb(135, 206, 250);
+  --coral: rgb(240, 128, 128);
+
+  --ff-serif: times;
+  --ff-sans: serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1.25rem;
+}

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  border: 3px solid lightgray;
+  background-color: lightcoral;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-img {
+  width: 5rem;
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+}

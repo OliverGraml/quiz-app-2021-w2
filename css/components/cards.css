@@ -1,0 +1,29 @@
+.question {
+  text-align: center;
+  border: 3px solid lightgray;
+  background-color: lightskyblue;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+.question__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0;
+}
+
+.question__bookmark {
+  width: 4rem;
+  position: relative;
+  left: 20%;
+  bottom: 3rem;
+  margin-bottom: -3rem;
+}
+
+.question__tag {
+  border: 3px solid black;
+  border-radius: 5%;
+  padding: 0.3rem;
+}
